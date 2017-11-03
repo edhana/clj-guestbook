@@ -30,4 +30,30 @@ body {
     margin-left: 1rem;
   }
 }
-
+.content {
+	background: white;
+	width: 520px;
+}
+form, .error {
+	background: white;
+	margin-bottom: 50px;
+	padding: 30px;
+	position: relative;
+	width: 520px;
+}
+li {
+	border-bottom: 1px dotted #ccc;
+	font-size: 16px;
+	padding: 5px;
+	position: relative;
+}
+li:last-child {
+	border-bottom: none;
+}
+li time {
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+ul {
+	list-style: none;
+}
